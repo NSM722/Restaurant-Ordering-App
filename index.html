@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&family=Smythe&display=swap"
+    rel="stylesheet">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="index.css">
+  <title>Restaurant App</title>
+</head>
+
+<body>
+  <main class="main-container">
+    <section class="header">
+      <!-- Header Background Image-->
+    </section>
+    <section class="menu-container" id="menu-container">
+      <!-- Menu Items & Details -->
+    </section>
+    <section>
+      <div class="order-container" id="order-container">
+        <!-- H3 Title -->
+      </div>
+      <div class="order-complete" id="order-complete">
+        <!-- Total Price of the ordered items -->
+      </div>
+      <button class="btn purchase-btn" id="purchase-btn">Complete order</button>
+    </section>
+    <form class="payment-form" id="payment-form">
+      <h4>Enter your card details</h4>
+      <input type="text" placeholder="Enter your name" aria-label="name" id="name" name="name" required>
+      <input type="text" placeholder="Enter your card number" id="cardNumber" name="cardNumber" aria-label="cardNumber"
+        minlength="16" maxlength="16" required>
+      <input type="password" placeholder="Enter your CVV" id="cvvNumber" name="cvvNumber" aria-label="cvvNumber"
+        minlength="3" maxlength="3" required>
+      <button class="btn form-btn" type="submit" id="form-btn">pay</button>
+    </form>
+  </main>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
