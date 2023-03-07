@@ -150,7 +150,7 @@ function renderMenuItems() {
                   <p class="item-ingredients">${item.ingredients}</p>
                   <p class="item-price">$${item.price}</p>
                 </div>
-                <button class="add-btn" id="add-btn" data-add="${item.id}">+</button>
+                <button class="add-btn" data-add="${item.id}">+</button>
               </div>
               <hr class="border-bottom">
             `
